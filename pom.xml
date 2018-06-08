@@ -6,7 +6,7 @@
 
     <groupId>eu.lukks</groupId>
     <artifactId>pizzaorder</artifactId>
-    <packaging>pom</packaging>
+
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>domain</module>
@@ -15,6 +15,9 @@
         <module>web</module>
     </modules>
 
+    <packaging>pom</packaging>
+    <name>pizza_order_Maven_project</name>
+    <url>http://lukks.eu</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,6 +43,5 @@
             <version>5.3.6.Final</version>
         </dependency>
     </dependencies>
-
 
 </project>
